@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header ul li{
+
+    @apply px-2;
+}
+
+.bg-primary{
+
+    background: #070F2B;
+}
+
+
+.bg-secondary{
+
+    background: #1B1A55;
+}
+
+.bg-ter{
+    background: #535C91;
+}
+.bg-for{
+   background: #9290C3; 
+}
+
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-slate-500 w-full h-1/4;
+}
+.mobile-nav  li{
+
+    @apply w-full text-center h-full border-b-2;
+}
+.project-info{
+
+    @apply absolute left-0 right-0 bottom-0  top-0 bg-secondary opacity-0 duration-300 hover:opacity-100;
+}
+.btn{
+    @apply bg-secondary  px-6 py-2 justify-center font-bold hover:border-2 border-white rounded;
+
+}
+html{
+    scroll-behavior: smooth;
+}
